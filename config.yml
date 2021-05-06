@@ -1,0 +1,16 @@
+title: Python with machine learning
+description: Python with machine learning are usefull or helpfull of real time project
+template:
+  repo: python-with-machine-learning-template
+  name: python-with-machine-learning
+before:
+  - type: createIssue
+    title: Welcome!
+    body: new-issue.md
+steps:
+  - title: First step
+    description: The first step in your course
+    event: issues.assigned
+    link: '{{ repoUrl }}'
+    actions:
+      - type: closeIssue
